@@ -1,0 +1,58 @@
+body {
+  background: #fafafa;
+}
+
+#root {
+  width: 600px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#root h3 {
+  margin-top: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.add {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding: 20px 0 10px 0;
+}
+
+.add input, .add button {
+  display: block;
+  width: 100%;
+  margin: 6px 0;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.add button {
+  background: #eee;
+  border: 1px solid #000;
+}
+
+.add button:hover {
+  cursor: pointer;
+}
+
+.todo-item {
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item p:hover {
+  cursor: pointer;
+}
+
+.todo-item a {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "testing-react-with-jest",
+  "version": "1.0.0",
+  "description": "利用 jest 测试 react 应用示例项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=3000 --open=dist/index.html",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itrainhub/testing-react-with-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "live-server": "^1.2.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.30",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
